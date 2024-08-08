@@ -1,0 +1,13 @@
+background-color=#1E1D2F
+text-color=#D9E0EE
+border-color=#96CDFB
+progress-color=over #302D41
+font=Iosevka Nerd Font 12
+[urgency=high]
+border-color=#F8BD96
+default-timeout=5000
+on-button-middle=exec makoctl menu -n "$id" rofi --dmenu -p 'Select action: '
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+
+[urgency=high]
+ignore-timeout=1

@@ -1,0 +1,10 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/,$HOME/文档/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled
